@@ -20,6 +20,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller2">
         <activity
+            android:name=".CamaraActivity"
+            android:exported="true"
+            android:label="@string/title_activity_camara"
+            android:theme="@style/Theme.Taller2.NoActionBar" />
+        <activity
             android:name=".ContactsActivity"
             android:exported="true"
             android:label="@string/title_activity_contacts"

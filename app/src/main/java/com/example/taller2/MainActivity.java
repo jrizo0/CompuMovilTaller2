@@ -34,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*
+
     public void eventCamara(View view) {
-        Intent intent = new Intent(this, .class);
+        Intent intent = new Intent(this, CamaraActivity.class);
         startActivity(intent);
-    }*/
+    }
 
     public void eventContactos(View view) {
         Intent intent = new Intent(this, ContactsActivity.class);
